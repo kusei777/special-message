@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 50px 60px; /* Increased padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px black;
+    width: 650px; /* Increased width */
+    height: 550px; /* Increased height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-size: 30px;
+    margin: 5px 0; /* Reduced margin for closer spacing */
+}
+
+button {
+    width: 200px; /* Adjusted width for better visibility */
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Space between button and headings */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border-color: black; 
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px black;
+}
+
+p {
+    font-size: 20px; 
+    margin-top: 20px;
+    color: #555;
+}
